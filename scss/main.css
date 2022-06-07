@@ -281,7 +281,7 @@ p {
   color: #221E1F;
 }
 .main .reviews .stars {
-  align-items: end;
+  align-items: end !important;
 }
 .main .reviews .stars img {
   width: 16px;
