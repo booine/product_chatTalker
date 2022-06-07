@@ -334,7 +334,7 @@ p {
   .main .container > div {
     padding-bottom: 60px;
   }
-  .main .medias ul.d-flex {
+  .main .medias .d-flex {
     flex-direction: column;
     align-items: center;
   }
@@ -355,7 +355,7 @@ p {
   }
   .main .reviews .review-list {
     flex-direction: column;
-    align-content: center;
+    align-items: center;
   }
   .main .reviews .intro-item {
     margin-bottom: 65px;
@@ -458,10 +458,6 @@ p {
   }
   .main .container > div {
     padding-bottom: 60px;
-  }
-  .main .medias .d-flex {
-    flex-direction: column;
-    align-content: center;
   }
   .main .media {
     margin-bottom: 24px;
