@@ -343,7 +343,9 @@
 
 
 @media (max-width:767px) {
-    .logo,.banner{
+
+    .logo,
+    .banner {
         justify-content: space-around;
     }
 
@@ -479,8 +481,8 @@
         line-height: 50px;
         font-size: 14px;
         position: fixed;
-        bottom: 10%;
-        right: 15%;
+        bottom: 2.5%;
+        right: 1%;
     }
 
     .index {
