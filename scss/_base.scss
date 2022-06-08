@@ -1,0 +1,27 @@
+@use 'variables'as *;
+
+* {
+    // outline: 2px dashed;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    font-size: 16px;
+    color: $text-primary-color;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5;
+}
