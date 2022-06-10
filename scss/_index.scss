@@ -416,7 +416,7 @@
 }
 
 
-@media (max-width:375px) {
+@media (max-width:576px) {
     .intro {
         &-text {
             margin-bottom: 32px;
@@ -484,8 +484,8 @@
     }
 
     .index {
-        max-width: 375px;
-        margin: 0 auto;
+        // max-width: 375px;
+        // margin: 0 auto;
         background-image: none;
 
 
@@ -648,6 +648,7 @@
 
     .footer {
         text-align: center;
+        background-image: none;
         background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/footer_sm.svg);
         background-repeat: no-repeat;
         background-size: contain;
