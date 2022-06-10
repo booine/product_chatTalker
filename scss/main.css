@@ -160,9 +160,14 @@ span {
   border-radius: 15px;
 }
 
-.action {
+.current {
   font-weight: bold;
   color: #56C4C5;
+}
+
+.current-btn {
+  background-color: #56C4C5;
+  color: #fff;
 }
 
 .d-flex {
@@ -763,6 +768,9 @@ span {
 @media (max-width: 767px) {
   .cost .main .container {
     padding: 0 44px;
+  }
+  .cost .main .btn-info-r {
+    margin-bottom: 16px;
   }
 }
 @media (max-width: 576px) {

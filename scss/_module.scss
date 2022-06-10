@@ -152,9 +152,14 @@
     border-radius: 15px;
 }
 
-.action{
+.current{
     font-weight: bold;
     color:$primary-color;
+}
+
+.current-btn {
+    background-color: $primary-color;
+    color: #fff;
 }
 
 

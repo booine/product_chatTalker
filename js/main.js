@@ -3,7 +3,7 @@ $(document).ready(function () {
     $('.question').find('.text').on('click', '.title', function (e) {
         console.log(e.currentTarget); // div.title
 
-        $(e.currentTarget).find('p').toggleClass('action');
+        $(e.currentTarget).find('p').toggleClass('current');
 
         $(e.currentTarget).siblings('.answer').toggleClass('d-none');
         var hideAnswer = $(e.currentTarget).siblings('.answer').is('.d-none');        
