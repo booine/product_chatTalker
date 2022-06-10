@@ -526,7 +526,7 @@ span {
     background-image: none;
   }
   .header .logo {
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 0 -20px;
     margin-bottom: 32px;
     padding: 16px 0;
