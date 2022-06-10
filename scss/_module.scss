@@ -14,7 +14,7 @@
     color: #FFFFFF;
 
     &-info {
-        padding: 15.5px 32px;
+        padding: 12px 32px;
         background-color: $primary-color;
         font-size: 18px;
         translate: background-color .15s ease-in-out;
@@ -23,6 +23,21 @@
             background-color: darken($primary-color, 10%);
         }
 
+    }
+
+    &-info-r{
+        padding: 15.5px 32px;
+        border: 1px solid $primary-color;
+        background-color: #fff;
+        font-size: 18px;
+        color: $primary-color;
+        translate: background-color .15s ease-in-out,
+        color .15s ease-in-out;
+
+        &:hover {
+            background-color: $primary-color;
+            color: #fff;
+        }
     }
 
     &-danger {
@@ -135,4 +150,8 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.d-none{
+    display: none;
 }
