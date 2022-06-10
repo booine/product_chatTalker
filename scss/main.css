@@ -682,6 +682,9 @@ span {
 .cost .main .container {
   padding: 0 88px;
 }
+.cost .main .btn-info-r {
+  margin-bottom: 16px;
+}
 .cost .main .programs .name {
   border-bottom: 1px solid #DDDDDD;
   font-size: 24px;
@@ -780,9 +783,6 @@ span {
 @media (max-width: 767px) {
   .cost .main .container {
     padding: 0 44px;
-  }
-  .cost .main .btn-info-r {
-    margin-bottom: 16px;
   }
 }
 @media (max-width: 576px) {
