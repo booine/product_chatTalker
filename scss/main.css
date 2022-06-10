@@ -185,8 +185,6 @@ span {
 }
 
 .index {
-  max-width: 1366px;
-  margin: 0 auto;
   background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/ball01.svg);
   background-repeat: no-repeat;
   background-position: -222px 588px;
