@@ -1,7 +1,45 @@
-$(document).ready(function () {
+$(document).ready(function (e) {
+    var cost = {
+        spend: function (people,num, pro) {
+            $('.people').find('.num').text(people);
+            $('.price').find('.num').text(num);
+            $('.price').find('.pro').text(pro);
+            console.log('成功!!');
+        }
+    }
+
+
+    // 方案計算
+    $('.cost-item').on('click', 'a', function (e) {
+        // console.log(e.currentTarget); //a.btn.btn-info-r
+        var peopleNum = $(e.currentTarget).find('span').text();
+        if (peopleNum == '10000') {
+            cost.spend(peopleNum, 600, 1600);
+        }
+        if (peopleNum == '15000') {
+            cost.spend(peopleNum, 900, 1900);
+        }
+        if (peopleNum == '20000') {
+            cost.spend(peopleNum, 1200, 2200);
+        }
+        if (peopleNum == '25000') {
+            cost.spend(peopleNum, 1500, 2500);
+        }
+        if (peopleNum == '>25000') {
+            cost.spend(peopleNum, 1800, 2800);
+        }
+    }).on('click', 'a', function (e) {
+        // console.log($('.cost-item').find('a'));
+
+        // 移除.current-btn
+        $('.cost-item').find('a').removeClass('current-btn');
+        // 加上.current-btn
+        $(e.currentTarget).addClass('current-btn');
+    });
+
     // 常見問題
     $('.question').find('.text').on('click', '.title', function (e) {
-        console.log(e.currentTarget); // div.title
+        // console.log(e.currentTarget); // div.title
 
         $(e.currentTarget).find('p').toggleClass('current');
 

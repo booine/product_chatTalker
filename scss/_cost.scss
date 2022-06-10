@@ -4,6 +4,10 @@
     font-size: 29px;
 }
 
+.num {
+    display: inline-block;
+}
+
 .cost {
 
     .header {
@@ -156,6 +160,12 @@
     margin-bottom: 48px;
 }
 
+.cost-item{
+    span{
+        font-size: 18px;
+    }
+}
+
 @media(max-width:992px) {
 
     .main {
@@ -206,8 +216,6 @@
         font-size: 24px;
     }
 
-
-
     .cost {
         max-width: 375px;
         margin: 0 auto;
@@ -224,8 +232,6 @@
 
 
             .logo {
-                margin: 0 -20px;
-                padding: 16px 20px;
                 margin-bottom: 0;
                 background-color: #fff;
             }
@@ -233,6 +239,9 @@
             .banner {
                 padding: 48px 0 361px 0;
                 background-image: none;
+                .info {
+                    padding-left: 20px;
+                }
 
                 p {
                     margin-bottom: 16px;
@@ -319,6 +328,9 @@
                 margin-bottom: 16px;
                 padding: 8px 16px;
                 font-size: 16px;
+                span{
+                    font-size: 16px;
+                }
             }
 
 
