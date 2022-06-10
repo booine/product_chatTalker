@@ -24,6 +24,17 @@ p {
   line-height: 1.5;
 }
 
+button {
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+span {
+  font-size: 12px;
+}
+
 .container {
   max-width: 1085px;
   margin: 0 auto;
@@ -141,6 +152,19 @@ p {
   background: #F5F5F5;
 }
 
+.shadow {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.0784313725);
+}
+
+.bdrs-15 {
+  border-radius: 15px;
+}
+
+.action {
+  font-weight: bold;
+  color: #56C4C5;
+}
+
 .d-flex {
   display: flex;
   justify-content: space-between;
@@ -242,7 +266,6 @@ p {
   height: 86px;
   padding: 15px 0;
   border-radius: 50%;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.0784313725);
 }
 .main .effects .intro-item .icon img {
   max-width: 52px;
@@ -284,7 +307,6 @@ p {
   max-width: 80px;
   height: 80px;
   border-radius: 50%;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.0784313725);
   position: absolute;
   top: -56px;
 }
@@ -610,27 +632,8 @@ p {
     padding: 12px 32px;
   }
 }
-button {
-  padding: 0;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-span {
-  font-size: 12px;
-}
-
 .equal {
   font-size: 29px;
-}
-
-.shadow {
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.0784313725);
-}
-
-.bdrs-15 {
-  border-radius: 15px;
 }
 
 .cost .header {
