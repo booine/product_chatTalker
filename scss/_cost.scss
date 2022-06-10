@@ -1,0 +1,351 @@
+@use 'variables'as *;
+
+.equal {
+    font-size: 29px;
+}
+
+.cost {
+
+    .header {
+        height: 559px;
+        margin-bottom: 0;
+        background-image: none;
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/banner.svg);
+        background-repeat: no-repeat;
+        background-position: right buttom;
+        background-size: contain;
+
+        .logo {
+            margin-bottom: 92px;
+        }
+
+        .banner {
+            padding-bottom: 180px;
+
+            p {
+                margin-bottom: 16px;
+            }
+
+            h2 {
+                margin-bottom: 0;
+                font-size: 16px;
+            }
+        }
+    }
+
+    .main {
+        margin-bottom: 0;
+        background-image: none;
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/ball03.svg);
+        background-repeat: no-repeat;
+        background-size: 361px;
+        background-position: left -267px bottom 697px;
+
+        .container {
+            padding: 0 88px;
+        }
+
+        .programs {
+
+
+            .name {
+                border-bottom: 1px solid #DDDDDD;
+                font-size: 24px;
+                color: #221E1F;
+            }
+
+            .intro-body {
+                padding: 0 24px;
+
+                p {
+                    padding: 32px 0;
+                }
+
+                .btn {
+                    margin: 32px 0;
+                }
+            }
+
+            .program-info {
+                align-items: center;
+                margin-bottom: 32px;
+            }
+
+            .people,
+            .price {
+                padding: 16px 32px;
+                background: #F5F5F5;
+
+                p {
+                    padding: 0;
+                    padding-top: 8px;
+                    font-size: 32px;
+                }
+
+            }
+
+            .people {
+                p {
+                    color: $primary-color;
+                }
+            }
+
+            .check-item {
+                justify-content: space-between;
+                align-items: start;
+                margin-bottom: 16px;
+                text-align: left;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+
+                img {
+                    width: 5.5%;
+                }
+
+                p {
+                    width: 90%;
+                    padding: 0;
+
+                }
+            }
+
+
+        }
+
+        .program {
+            width: calc(50% - 8px);
+        }
+
+        .question {
+            margin-bottom: 16px;
+            padding: 16px 32px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            .text {
+                width: 100%;
+            }
+
+            .title {
+                font-size: 18px;
+                cursor: pointer;
+            }
+
+            .answer {
+                margin-top: 24px;
+                line-height: 1.8;
+                color: #747474;
+
+            }
+        }
+
+    }
+}
+
+.questions-list {
+    flex-direction: column;
+    text-align: left;
+}
+
+.cost-list {
+    justify-content: space-evenly;
+    margin-bottom: 48px;
+}
+
+@media(max-width:992px) {
+
+    .main {
+        .programs {
+            .cost-info {
+                flex-direction: column;
+                align-items: center;
+
+
+            }
+
+            .program {
+                width: 75%;
+                margin-bottom: 32px;
+            }
+        }
+
+    }
+
+}
+
+@media(max-width:767px) {
+    .cost {
+        .main {
+            .container {
+                padding: 0 44px;
+            }
+        }
+    }
+
+}
+
+@media(max-width:576px) {
+
+    .intro-text {
+        margin-bottom: 24px;
+    }
+
+    .intro-text .title {
+        font-size: 28px;
+        line-height: 1.5;
+    }
+
+    .equal {
+        font-size: 24px;
+    }
+
+
+
+    .cost {
+        max-width: 375px;
+        margin: 0 auto;
+        background-image: none;
+
+        .header {
+            height: auto;
+            margin-bottom: 60px;
+            background-image: none;
+            background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/banner_sm.svg);
+            background-repeat: no-repeat;
+            background-position: right buttom;
+            background-size: cover;
+
+
+            .logo {
+                margin: 0 -20px;
+                padding: 16px 20px;
+                margin-bottom: 0;
+                background-color: #fff;
+            }
+
+            .banner {
+                padding: 48px 0 361px 0;
+                background-image: none;
+
+                p {
+                    margin-bottom: 16px;
+                    font-size: 32px;
+                }
+
+                h2 {
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        .main {
+            background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/ball03.svg);
+            background-repeat: no-repeat;
+            background-size: 204px;
+            background-position: left -108px bottom 975px;
+
+            .container {
+                padding: 0 20px;
+            }
+
+            .programs {
+
+                .intro-body {
+                    padding: 0 16px;
+
+                    p {
+                        padding: 32px 0;
+                    }
+
+                    .btn {
+                        margin: 32px 0;
+                    }
+                }
+
+                .people,
+                .price {
+                    padding: 16px;
+                    background: #F5F5F5;
+
+                    p {
+                        padding: 0;
+                        padding-top: 8px;
+                        font-size: 28px;
+                    }
+
+                }
+
+                .people {
+                    p {
+                        color: $primary-color;
+                    }
+                }
+
+                .check-item {
+
+                    margin-bottom: 16px;
+
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+
+                    img {
+                        width: 5.5%;
+                    }
+
+                    p {
+                        width: 90%;
+                        padding: 0;
+                        font-size: 14px;
+
+                    }
+                }
+
+
+            }
+
+            .program {
+                width: 100%;
+            }
+
+            .btn-info-r {
+                margin-bottom: 16px;
+                padding: 8px 16px;
+                font-size: 16px;
+            }
+
+
+            .question {
+                margin-bottom: 16px;
+                padding: 16px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+
+                .text {
+                    width: 100%;
+                }
+
+                .title {
+                    font-size: 18px;
+                    cursor: pointer;
+                }
+
+                .answer {
+                    margin-top: 24px;
+                    line-height: 1.8;
+                    color: #747474;
+
+                }
+            }
+
+        }
+
+    }
+
+}
