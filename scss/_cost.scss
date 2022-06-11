@@ -129,6 +129,9 @@
         .question {
             margin-bottom: 16px;
             padding: 16px 32px;
+            &:hover{
+                background: #F5F5F5;
+            }
 
             &:last-child {
                 margin-bottom: 0;
@@ -280,7 +283,6 @@
                 .people,
                 .price {
                     padding: 16px;
-                    background: #F5F5F5;
 
                     p {
                         padding: 0;

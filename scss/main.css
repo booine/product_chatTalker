@@ -738,6 +738,9 @@ span {
   margin-bottom: 16px;
   padding: 16px 32px;
 }
+.cost .main .question:hover {
+  background: #F5F5F5;
+}
 .cost .main .question:last-child {
   margin-bottom: 0;
 }
@@ -850,7 +853,6 @@ span {
   .cost .main .programs .people,
 .cost .main .programs .price {
     padding: 16px;
-    background: #F5F5F5;
   }
   .cost .main .programs .people p,
 .cost .main .programs .price p {
