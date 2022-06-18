@@ -275,6 +275,9 @@
 
     .banner{
         flex-direction: column;
+        img{
+            width: 100%;
+        }
     }
 
     .main {
@@ -360,7 +363,7 @@
                 flex-direction: column;
                 align-items: center;
             }
-            
+
             .media {
                 max-width: 80%;
             }
@@ -525,9 +528,9 @@
             background-size: 334px auto;
             background-position: center bottom;
 
-            // img {
-            //     min-width: 304px;
-            // }
+            img {
+                min-width: 100%;
+            }
         }
     }
 

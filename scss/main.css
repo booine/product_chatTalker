@@ -385,6 +385,9 @@ span {
   .banner {
     flex-direction: column;
   }
+  .banner img {
+    width: 100%;
+  }
 
   .main .container > div {
     padding-bottom: 60px;
@@ -547,6 +550,9 @@ span {
     background-repeat: no-repeat;
     background-size: 334px auto;
     background-position: center bottom;
+  }
+  .header .banner img {
+    min-width: 100%;
   }
 
   .main {
