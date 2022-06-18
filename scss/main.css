@@ -365,10 +365,10 @@ span {
   text-align: center;
   background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/home_footer.svg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100%;
 }
 .footer .info {
-  padding: 260px 0 100px 0;
+  padding: 360px 0 100px 0;
 }
 .footer .info h2 {
   margin-bottom: 48px;
@@ -642,7 +642,7 @@ span {
     background-size: contain;
   }
   .footer .info {
-    padding: 293px 0 60px 0;
+    padding: 350px 0 60px 0;
   }
   .footer .info h2 {
     margin-bottom: 24px;
@@ -675,8 +675,9 @@ span {
 .cost .header .banner {
   padding-bottom: 180px;
 }
-.cost .header .banner p {
+.cost .header .banner h1 {
   margin-bottom: 16px;
+  font-weight: bold;
 }
 .cost .header .banner h2 {
   margin-bottom: 0;
@@ -839,7 +840,7 @@ span {
   .cost .header .banner .info {
     padding-left: 20px;
   }
-  .cost .header .banner p {
+  .cost .header .banner h1 {
     margin-bottom: 16px;
     font-size: 32px;
   }

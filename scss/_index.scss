@@ -251,10 +251,10 @@
     text-align: center;
     background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/home_footer.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100%;
 
     .info {
-        padding: 260px 0 100px 0;
+        padding: 360px 0 100px 0;
 
         h2 {
             margin-bottom: 48px;
@@ -664,7 +664,7 @@
         background-size: contain;
 
         .info {
-            padding: 293px 0 60px 0;
+            padding: 350px 0 60px 0;
 
 
             h2 {
