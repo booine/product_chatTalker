@@ -8,6 +8,13 @@ $(document).ready(function (e) {
         }
     }
 
+    // go-top 滑動動畫效果
+    $('.go-top').on('click', function (e) {
+        $('html,body').animate({ // 有些瀏覽器只支援html，有些只支援body 所以都寫最保險
+            scrollTop:0,
+        },1000)
+    })
+
 
     // 方案計算
     $('.cost-item').on('click', 'a', function (e) {
