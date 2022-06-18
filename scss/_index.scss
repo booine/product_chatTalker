@@ -1,9 +1,6 @@
 @use 'variables'as *;
 
 .index {
-    // max-width: 1366px;
-    // margin: 0 auto;
-    // border: 1px solid green;
     // ball-1
     background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/ball01.svg);
     background-repeat: no-repeat;
@@ -73,7 +70,7 @@
     }
 
     .media {
-        width: 245px;
+        max-width: 33%;
         margin-bottom: 24px;
 
         img {
@@ -105,7 +102,7 @@
         }
 
         .intro-item {
-            width: 230px;
+            width: 43%;
             padding: 32px;
 
             &:nth-child(1),
@@ -229,6 +226,7 @@
                 margin-right: 8px;
                 border-radius: 50%;
                 background: #DDDDDD;
+                cursor: pointer;
 
                 &:last-child {
                     margin-right: 0;
@@ -270,6 +268,14 @@
 
 
 @media (max-width:992px) {
+    .logo,
+    .banner {
+        justify-content: space-around;
+    }
+
+    .banner{
+        flex-direction: column;
+    }
 
     .main {
         .container {
@@ -342,11 +348,6 @@
 
 @media (max-width:767px) {
 
-    .logo,
-    .banner {
-        justify-content: space-around;
-    }
-
     .main {
         .container {
             &>div {
@@ -358,6 +359,10 @@
             .d-flex {
                 flex-direction: column;
                 align-items: center;
+            }
+            
+            .media {
+                max-width: 80%;
             }
         }
 
@@ -435,6 +440,7 @@
         }
 
         .intro-item {
+            width: 100%;
             margin-bottom: 24px;
 
             &:last-child {
@@ -484,16 +490,12 @@
     }
 
     .index {
-        // max-width: 375px;
-        // margin: 0 auto;
         background-image: none;
 
 
     }
 
     .container {
-        min-width: 375px;
-        margin: 0 auto;
         padding: 0 20px;
     }
 
@@ -511,10 +513,10 @@
             padding: 16px 0;
             border-bottom: 1px solid #FFD153;
 
-
             img {
                 width: 130px;
             }
+
         }
 
         .banner {
@@ -523,9 +525,9 @@
             background-size: 334px auto;
             background-position: center bottom;
 
-            img {
-                min-width: 304px;
-            }
+            // img {
+            //     min-width: 304px;
+            // }
         }
     }
 
@@ -607,6 +609,10 @@
                 width: 100%;
             }
 
+            .intro-item{
+                width: 80%;
+            }
+
         }
 
 
@@ -621,7 +627,7 @@
             }
 
             .intro-item {
-                width: 100%;
+                width: 80%;
                 margin-bottom: 0;
                 padding: 16px;
 

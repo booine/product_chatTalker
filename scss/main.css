@@ -231,7 +231,7 @@ span {
   padding-bottom: 24px;
 }
 .main .media {
-  width: 245px;
+  max-width: 33%;
   margin-bottom: 24px;
 }
 .main .media img {
@@ -256,7 +256,7 @@ span {
   width: 50%;
 }
 .main .effects .intro-item {
-  width: 230px;
+  width: 43%;
   padding: 32px;
 }
 .main .effects .intro-item:nth-child(1), .main .effects .intro-item:nth-child(2) {
@@ -347,6 +347,7 @@ span {
   margin-right: 8px;
   border-radius: 50%;
   background: #DDDDDD;
+  cursor: pointer;
 }
 .main .reviews .pages .page:last-child {
   margin-right: 0;
@@ -376,6 +377,15 @@ span {
 }
 
 @media (max-width: 992px) {
+  .logo,
+.banner {
+    justify-content: space-around;
+  }
+
+  .banner {
+    flex-direction: column;
+  }
+
   .main .container > div {
     padding-bottom: 60px;
   }
@@ -417,17 +427,15 @@ span {
   }
 }
 @media (max-width: 767px) {
-  .logo,
-.banner {
-    justify-content: space-around;
-  }
-
   .main .container > div {
     padding-bottom: 60px;
   }
   .main .medias .d-flex {
     flex-direction: column;
     align-items: center;
+  }
+  .main .medias .media {
+    max-width: 80%;
   }
   .main .roles .d-flex {
     width: 75%;
@@ -470,6 +478,7 @@ span {
     font-weight: normal;
   }
   .intro .intro-item {
+    width: 100%;
     margin-bottom: 24px;
   }
   .intro .intro-item:last-child {
@@ -514,8 +523,6 @@ span {
   }
 
   .container {
-    min-width: 375px;
-    margin: 0 auto;
     padding: 0 20px;
   }
 
@@ -540,9 +547,6 @@ span {
     background-repeat: no-repeat;
     background-size: 334px auto;
     background-position: center bottom;
-  }
-  .header .banner img {
-    min-width: 304px;
   }
 
   .main {
@@ -597,6 +601,9 @@ span {
   .main .effects .intro-text {
     width: 100%;
   }
+  .main .effects .intro-item {
+    width: 80%;
+  }
   .main .reviews .review-list {
     width: 100%;
   }
@@ -604,7 +611,7 @@ span {
     margin-bottom: 88px;
   }
   .main .reviews .intro-item {
-    width: 100%;
+    width: 80%;
     margin-bottom: 0;
     padding: 16px;
   }
@@ -698,6 +705,7 @@ span {
   margin: 32px 0;
 }
 .cost .main .programs .program-info {
+  justify-content: space-around;
   align-items: center;
   margin-bottom: 32px;
 }
@@ -777,7 +785,7 @@ span {
     align-items: center;
   }
   .main .programs .program {
-    width: 75%;
+    width: 80%;
     margin-bottom: 32px;
   }
 }
